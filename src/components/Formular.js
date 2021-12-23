@@ -1,9 +1,14 @@
-import React from "react"
+import React,{useState} from "react"
 
-const Formular = () => {
+const Formular = ({setInputText}) => {
+    const inputTextHandler=(e)=>{
+       console.log(e.target.value)
+       //setInputText(e.target.value)
+    }
+
     return (
         <form>
-            <input type="text" className="todo-input" />
+            <input type="text"  onChange={inputTextHandler} className="todo-input" />
             <button className="todo-button" type="submit">
                 <i className="fas fa-plus-square"></i>
             </button>
