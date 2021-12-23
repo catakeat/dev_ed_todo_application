@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Thu Dec 23 2021 20:04:28 GMT+0200 (Ora standard a Europei de Est)
+------------------------------------------------------
+
+Modified files:
+* src/components/Formular.js
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
