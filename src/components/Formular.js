@@ -3,7 +3,7 @@ import React,{useState} from "react"
 const Formular = ({setInputText}) => {
     const inputTextHandler=(e)=>{
        console.log(e.target.value)
-       //setInputText(e.target.value)
+       setInputText(e.target.value)
     }
 
     return (
