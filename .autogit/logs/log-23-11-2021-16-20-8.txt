@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Thu Dec 23 2021 16:20:08 GMT+0200 (Ora standard a Europei de Est)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/components/TodoList.js
+
+
+Created files:
+* src/components/Formular.js
+
+
+Deleted files:
+* src/components/form.js
+
+
+Renamed files:
