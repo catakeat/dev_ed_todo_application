@@ -26,6 +26,7 @@ function App() {
      //console.log("Hey")
 
   },[todos,status])
+  
   return (
     <div className="App">
       <header>
@@ -41,7 +42,7 @@ function App() {
 
       </header>
 
-      <TodoList todos={todos} setTodos={setTodos} />
+      <TodoList todos={todos} setTodos={setTodos} filteredTodos={filteredTodos}/>
 
     </div>
   );

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 
-const Formular = ({ inputText, todos, setTodos, setInputText ,setStatus ,filteredHandler}) => {
+const Formular = ({ inputText, todos, setTodos, setInputText ,setStatus ,filterHandler}) => {
   const inputTextHandler = (e) => {
     console.log(e.target.value);
     setInputText(e.target.value);
@@ -16,8 +16,10 @@ const Formular = ({ inputText, todos, setTodos, setInputText ,setStatus ,filtere
   };
   const statusHandler= (e)=>{
     setStatus(e.target.value)
-   
+    
   }
+
+
   return (
     <form   onSubmit={submitTodoHandler}>
       <input
