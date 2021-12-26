@@ -18,6 +18,7 @@ function App() {
           todos={todos}
           setTodos={setTodos}
           setInputText={setInputText}
+          setStatus = {setStatus}
         />
        
       </header>
