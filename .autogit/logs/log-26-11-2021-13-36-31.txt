@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Dec 26 2021 13:36:31 GMT+0200 (Ora standard a Europei de Est)
+------------------------------------------------------
+
+Modified files:
+* src/components/Todo.js
+
+
+Created files:
+* .autogit/logs/log-26-11-2021-13-5-57.txt
+
+
+Deleted files:
+
+
+Renamed files:
